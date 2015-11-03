@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ECE23001BE97AB500794184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE22FF1BE97AB500794184 /* main.m */; };
+		5ECE23031BE97AB500794184 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE23021BE97AB500794184 /* AppDelegate.m */; };
+		5ECE23061BE97AB500794184 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE23051BE97AB500794184 /* ViewController.m */; };
+		5ECE23091BE97AB500794184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECE23071BE97AB500794184 /* Main.storyboard */; };
+		5ECE230B1BE97AB500794184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ECE230A1BE97AB500794184 /* Assets.xcassets */; };
+		5ECE230E1BE97AB500794184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECE230C1BE97AB500794184 /* LaunchScreen.storyboard */; };
+		5ECE23191BE97AB500794184 /* AWSDynamoLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE23181BE97AB500794184 /* AWSDynamoLoginTests.m */; };
+		5ECE23241BE97AB500794184 /* AWSDynamoLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE23231BE97AB500794184 /* AWSDynamoLoginUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ECE23151BE97AB500794184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ECE22F31BE97AB500794184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ECE22FA1BE97AB500794184;
+			remoteInfo = AWSDynamoLogin;
+		};
+		5ECE23201BE97AB500794184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ECE22F31BE97AB500794184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ECE22FA1BE97AB500794184;
+			remoteInfo = AWSDynamoLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ECE22FB1BE97AB500794184 /* AWSDynamoLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSDynamoLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECE22FF1BE97AB500794184 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5ECE23011BE97AB500794184 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5ECE23021BE97AB500794184 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5ECE23041BE97AB500794184 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5ECE23051BE97AB500794184 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5ECE23081BE97AB500794184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ECE230A1BE97AB500794184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ECE230D1BE97AB500794184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ECE230F1BE97AB500794184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECE23141BE97AB500794184 /* AWSDynamoLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSDynamoLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECE23181BE97AB500794184 /* AWSDynamoLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSDynamoLoginTests.m; sourceTree = "<group>"; };
+		5ECE231A1BE97AB500794184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECE231F1BE97AB500794184 /* AWSDynamoLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSDynamoLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECE23231BE97AB500794184 /* AWSDynamoLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSDynamoLoginUITests.m; sourceTree = "<group>"; };
+		5ECE23251BE97AB500794184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ECE22F81BE97AB500794184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECE23111BE97AB500794184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECE231C1BE97AB500794184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ECE22F21BE97AB500794184 = {
+			isa = PBXGroup;
+			children = (
+				5ECE22FD1BE97AB500794184 /* AWSDynamoLogin */,
+				5ECE23171BE97AB500794184 /* AWSDynamoLoginTests */,
+				5ECE23221BE97AB500794184 /* AWSDynamoLoginUITests */,
+				5ECE22FC1BE97AB500794184 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ECE22FC1BE97AB500794184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ECE22FB1BE97AB500794184 /* AWSDynamoLogin.app */,
+				5ECE23141BE97AB500794184 /* AWSDynamoLoginTests.xctest */,
+				5ECE231F1BE97AB500794184 /* AWSDynamoLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ECE22FD1BE97AB500794184 /* AWSDynamoLogin */ = {
+			isa = PBXGroup;
+			children = (
+				5ECE23011BE97AB500794184 /* AppDelegate.h */,
+				5ECE23021BE97AB500794184 /* AppDelegate.m */,
+				5ECE23041BE97AB500794184 /* ViewController.h */,
+				5ECE23051BE97AB500794184 /* ViewController.m */,
+				5ECE23071BE97AB500794184 /* Main.storyboard */,
+				5ECE230A1BE97AB500794184 /* Assets.xcassets */,
+				5ECE230C1BE97AB500794184 /* LaunchScreen.storyboard */,
+				5ECE230F1BE97AB500794184 /* Info.plist */,
+				5ECE22FE1BE97AB500794184 /* Supporting Files */,
+			);
+			path = AWSDynamoLogin;
+			sourceTree = "<group>";
+		};
+		5ECE22FE1BE97AB500794184 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ECE22FF1BE97AB500794184 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ECE23171BE97AB500794184 /* AWSDynamoLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ECE23181BE97AB500794184 /* AWSDynamoLoginTests.m */,
+				5ECE231A1BE97AB500794184 /* Info.plist */,
+			);
+			path = AWSDynamoLoginTests;
+			sourceTree = "<group>";
+		};
+		5ECE23221BE97AB500794184 /* AWSDynamoLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ECE23231BE97AB500794184 /* AWSDynamoLoginUITests.m */,
+				5ECE23251BE97AB500794184 /* Info.plist */,
+			);
+			path = AWSDynamoLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ECE22FA1BE97AB500794184 /* AWSDynamoLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECE23281BE97AB500794184 /* Build configuration list for PBXNativeTarget "AWSDynamoLogin" */;
+			buildPhases = (
+				5ECE22F71BE97AB500794184 /* Sources */,
+				5ECE22F81BE97AB500794184 /* Frameworks */,
+				5ECE22F91BE97AB500794184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWSDynamoLogin;
+			productName = AWSDynamoLogin;
+			productReference = 5ECE22FB1BE97AB500794184 /* AWSDynamoLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ECE23131BE97AB500794184 /* AWSDynamoLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECE232B1BE97AB500794184 /* Build configuration list for PBXNativeTarget "AWSDynamoLoginTests" */;
+			buildPhases = (
+				5ECE23101BE97AB500794184 /* Sources */,
+				5ECE23111BE97AB500794184 /* Frameworks */,
+				5ECE23121BE97AB500794184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ECE23161BE97AB500794184 /* PBXTargetDependency */,
+			);
+			name = AWSDynamoLoginTests;
+			productName = AWSDynamoLoginTests;
+			productReference = 5ECE23141BE97AB500794184 /* AWSDynamoLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ECE231E1BE97AB500794184 /* AWSDynamoLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECE232E1BE97AB500794184 /* Build configuration list for PBXNativeTarget "AWSDynamoLoginUITests" */;
+			buildPhases = (
+				5ECE231B1BE97AB500794184 /* Sources */,
+				5ECE231C1BE97AB500794184 /* Frameworks */,
+				5ECE231D1BE97AB500794184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ECE23211BE97AB500794184 /* PBXTargetDependency */,
+			);
+			name = AWSDynamoLoginUITests;
+			productName = AWSDynamoLoginUITests;
+			productReference = 5ECE231F1BE97AB500794184 /* AWSDynamoLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ECE22F31BE97AB500794184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Rommel Brigaudit";
+				TargetAttributes = {
+					5ECE22FA1BE97AB500794184 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					5ECE23131BE97AB500794184 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5ECE22FA1BE97AB500794184;
+					};
+					5ECE231E1BE97AB500794184 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5ECE22FA1BE97AB500794184;
+					};
+				};
+			};
+			buildConfigurationList = 5ECE22F61BE97AB500794184 /* Build configuration list for PBXProject "AWSDynamoLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ECE22F21BE97AB500794184;
+			productRefGroup = 5ECE22FC1BE97AB500794184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ECE22FA1BE97AB500794184 /* AWSDynamoLogin */,
+				5ECE23131BE97AB500794184 /* AWSDynamoLoginTests */,
+				5ECE231E1BE97AB500794184 /* AWSDynamoLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ECE22F91BE97AB500794184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECE230E1BE97AB500794184 /* LaunchScreen.storyboard in Resources */,
+				5ECE230B1BE97AB500794184 /* Assets.xcassets in Resources */,
+				5ECE23091BE97AB500794184 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECE23121BE97AB500794184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECE231D1BE97AB500794184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ECE22F71BE97AB500794184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECE23061BE97AB500794184 /* ViewController.m in Sources */,
+				5ECE23031BE97AB500794184 /* AppDelegate.m in Sources */,
+				5ECE23001BE97AB500794184 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECE23101BE97AB500794184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECE23191BE97AB500794184 /* AWSDynamoLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECE231B1BE97AB500794184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECE23241BE97AB500794184 /* AWSDynamoLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ECE23161BE97AB500794184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ECE22FA1BE97AB500794184 /* AWSDynamoLogin */;
+			targetProxy = 5ECE23151BE97AB500794184 /* PBXContainerItemProxy */;
+		};
+		5ECE23211BE97AB500794184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ECE22FA1BE97AB500794184 /* AWSDynamoLogin */;
+			targetProxy = 5ECE23201BE97AB500794184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ECE23071BE97AB500794184 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ECE23081BE97AB500794184 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ECE230C1BE97AB500794184 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ECE230D1BE97AB500794184 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ECE23261BE97AB500794184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5ECE23271BE97AB500794184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ECE23291BE97AB500794184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AWSDynamoLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.AWSDynamoLogin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ECE232A1BE97AB500794184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AWSDynamoLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.AWSDynamoLogin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5ECE232C1BE97AB500794184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AWSDynamoLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.AWSDynamoLoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSDynamoLogin.app/AWSDynamoLogin";
+			};
+			name = Debug;
+		};
+		5ECE232D1BE97AB500794184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AWSDynamoLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.AWSDynamoLoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSDynamoLogin.app/AWSDynamoLogin";
+			};
+			name = Release;
+		};
+		5ECE232F1BE97AB500794184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AWSDynamoLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.AWSDynamoLoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AWSDynamoLogin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5ECE23301BE97AB500794184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AWSDynamoLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.AWSDynamoLoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AWSDynamoLogin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ECE22F61BE97AB500794184 /* Build configuration list for PBXProject "AWSDynamoLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECE23261BE97AB500794184 /* Debug */,
+				5ECE23271BE97AB500794184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECE23281BE97AB500794184 /* Build configuration list for PBXNativeTarget "AWSDynamoLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECE23291BE97AB500794184 /* Debug */,
+				5ECE232A1BE97AB500794184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5ECE232B1BE97AB500794184 /* Build configuration list for PBXNativeTarget "AWSDynamoLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECE232C1BE97AB500794184 /* Debug */,
+				5ECE232D1BE97AB500794184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5ECE232E1BE97AB500794184 /* Build configuration list for PBXNativeTarget "AWSDynamoLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECE232F1BE97AB500794184 /* Debug */,
+				5ECE23301BE97AB500794184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ECE22F31BE97AB500794184 /* Project object */;
+}
