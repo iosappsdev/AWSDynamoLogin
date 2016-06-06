@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4296008CFC1AB90684569DA2 /* libPods-AWSDynamoLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4742CD8FB434B14A277C4EF0 /* libPods-AWSDynamoLogin.a */; };
 		5ECE23001BE97AB500794184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE22FF1BE97AB500794184 /* main.m */; };
 		5ECE23031BE97AB500794184 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE23021BE97AB500794184 /* AppDelegate.m */; };
 		5ECE23061BE97AB500794184 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE23051BE97AB500794184 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		5ECE230E1BE97AB500794184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECE230C1BE97AB500794184 /* LaunchScreen.storyboard */; };
 		5ECE23191BE97AB500794184 /* AWSDynamoLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE23181BE97AB500794184 /* AWSDynamoLoginTests.m */; };
 		5ECE23241BE97AB500794184 /* AWSDynamoLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE23231BE97AB500794184 /* AWSDynamoLoginUITests.m */; };
+		5EDAFF881CC8121500CE2619 /* voltesV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDAFF871CC8121500CE2619 /* voltesV.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00AFCE8B9C8961AF66A4CA04 /* Pods-AWSDynamoLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSDynamoLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSDynamoLogin/Pods-AWSDynamoLogin.release.xcconfig"; sourceTree = "<group>"; };
+		4742CD8FB434B14A277C4EF0 /* libPods-AWSDynamoLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSDynamoLogin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECE22FB1BE97AB500794184 /* AWSDynamoLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSDynamoLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECE22FF1BE97AB500794184 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5ECE23011BE97AB500794184 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		5ECE231F1BE97AB500794184 /* AWSDynamoLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSDynamoLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECE23231BE97AB500794184 /* AWSDynamoLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSDynamoLoginUITests.m; sourceTree = "<group>"; };
 		5ECE23251BE97AB500794184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EDAFF871CC8121500CE2619 /* voltesV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = voltesV.jpg; sourceTree = "<group>"; };
+		CFD19D27960D9F4D596D8470 /* Pods-AWSDynamoLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSDynamoLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSDynamoLogin/Pods-AWSDynamoLogin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4296008CFC1AB90684569DA2 /* libPods-AWSDynamoLogin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0F0A0E20C586E0C195D8A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFD19D27960D9F4D596D8470 /* Pods-AWSDynamoLogin.debug.xcconfig */,
+				00AFCE8B9C8961AF66A4CA04 /* Pods-AWSDynamoLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F08833DCC66BBC51F3C9B55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4742CD8FB434B14A277C4EF0 /* libPods-AWSDynamoLogin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5ECE22F21BE97AB500794184 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +109,8 @@
 				5ECE23171BE97AB500794184 /* AWSDynamoLoginTests */,
 				5ECE23221BE97AB500794184 /* AWSDynamoLoginUITests */,
 				5ECE22FC1BE97AB500794184 /* Products */,
+				1B0F0A0E20C586E0C195D8A9 /* Pods */,
+				1F08833DCC66BBC51F3C9B55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +127,7 @@
 		5ECE22FD1BE97AB500794184 /* AWSDynamoLogin */ = {
 			isa = PBXGroup;
 			children = (
+				5EDAFF871CC8121500CE2619 /* voltesV.jpg */,
 				5ECE23011BE97AB500794184 /* AppDelegate.h */,
 				5ECE23021BE97AB500794184 /* AppDelegate.m */,
 				5ECE23041BE97AB500794184 /* ViewController.h */,
@@ -147,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5ECE23281BE97AB500794184 /* Build configuration list for PBXNativeTarget "AWSDynamoLogin" */;
 			buildPhases = (
+				6D3888CB19ECB56B9664651F /* Check Pods Manifest.lock */,
 				5ECE22F71BE97AB500794184 /* Sources */,
 				5ECE22F81BE97AB500794184 /* Frameworks */,
 				5ECE22F91BE97AB500794184 /* Resources */,
+				B2267EFA3EACAA765AF77DC9 /* Embed Pods Frameworks */,
+				875B32CDEAB09850495377CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ECE230E1BE97AB500794184 /* LaunchScreen.storyboard in Resources */,
+				5EDAFF881CC8121500CE2619 /* voltesV.jpg in Resources */,
 				5ECE230B1BE97AB500794184 /* Assets.xcassets in Resources */,
 				5ECE23091BE97AB500794184 /* Main.storyboard in Resources */,
 			);
@@ -264,6 +295,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D3888CB19ECB56B9664651F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		875B32CDEAB09850495377CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSDynamoLogin/Pods-AWSDynamoLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2267EFA3EACAA765AF77DC9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSDynamoLogin/Pods-AWSDynamoLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5ECE22F71BE97AB500794184 /* Sources */ = {
@@ -409,9 +488,11 @@
 		};
 		5ECE23291BE97AB500794184 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD19D27960D9F4D596D8470 /* Pods-AWSDynamoLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AWSDynamoLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.AWSDynamoLogin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,9 +501,11 @@
 		};
 		5ECE232A1BE97AB500794184 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00AFCE8B9C8961AF66A4CA04 /* Pods-AWSDynamoLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AWSDynamoLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.AWSDynamoLogin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +579,7 @@
 				5ECE232A1BE97AB500794184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5ECE232B1BE97AB500794184 /* Build configuration list for PBXNativeTarget "AWSDynamoLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +588,7 @@
 				5ECE232D1BE97AB500794184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5ECE232E1BE97AB500794184 /* Build configuration list for PBXNativeTarget "AWSDynamoLoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +597,7 @@
 				5ECE23301BE97AB500794184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

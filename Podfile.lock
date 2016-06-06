@@ -1,0 +1,45 @@
+PODS:
+  - AWSCognito (2.4.3):
+    - AWSCore (= 2.4.3)
+  - AWSCore (2.4.3)
+  - AWSDynamoDB (2.4.3):
+    - AWSCore (= 2.4.3)
+  - AWSLambda (2.4.3):
+    - AWSCore (= 2.4.3)
+  - AWSS3 (2.4.3):
+    - AWSCore (= 2.4.3)
+  - AWSSNS (2.4.3):
+    - AWSCore (= 2.4.3)
+  - Bolts (1.7.0):
+    - Bolts/AppLinks (= 1.7.0)
+    - Bolts/Tasks (= 1.7.0)
+  - Bolts/AppLinks (1.7.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.7.0)
+  - FBSDKCoreKit (4.12.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.12.0):
+    - FBSDKCoreKit
+
+DEPENDENCIES:
+  - AWSCognito
+  - AWSCore
+  - AWSDynamoDB
+  - AWSLambda
+  - AWSS3
+  - AWSSNS
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+
+SPEC CHECKSUMS:
+  AWSCognito: 9a83fcecccd8b9efaa82fec7722ee2a4c723b0fe
+  AWSCore: 1b1edbf65f948804c9d522f1c49e29f51f72c6d8
+  AWSDynamoDB: 50d4c3abc823f93b0cdc16ca5041996b9294d057
+  AWSLambda: 26951192989fc68625134e4d856e23fede7cd755
+  AWSS3: 82159813c72679e1a049e9d0be40ad73ffdb2982
+  AWSSNS: 4dde743fe01ad3f1581bb1005dbb7fb59b518c1e
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
+  FBSDKCoreKit: 6e56d5a2a64a755ad4efb5dbeee8f82fb1b99775
+  FBSDKLoginKit: 03f68a8d48c2c8bb81d7eb8097973d483543e1f6
+
+COCOAPODS: 0.39.0
