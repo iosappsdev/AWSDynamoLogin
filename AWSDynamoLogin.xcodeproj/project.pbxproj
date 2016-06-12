@@ -17,6 +17,8 @@
 		5ECE23191BE97AB500794184 /* AWSDynamoLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE23181BE97AB500794184 /* AWSDynamoLoginTests.m */; };
 		5ECE23241BE97AB500794184 /* AWSDynamoLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE23231BE97AB500794184 /* AWSDynamoLoginUITests.m */; };
 		5EDAFF881CC8121500CE2619 /* voltesV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDAFF871CC8121500CE2619 /* voltesV.jpg */; };
+		8CB874A11D0CEA46006A9DA6 /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB874A01D0CEA46006A9DA6 /* BCViewController.m */; };
+		8CB874A41D0CEA5F006A9DA6 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB874A31D0CEA5F006A9DA6 /* Constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		5ECE23231BE97AB500794184 /* AWSDynamoLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSDynamoLoginUITests.m; sourceTree = "<group>"; };
 		5ECE23251BE97AB500794184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EDAFF871CC8121500CE2619 /* voltesV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = voltesV.jpg; sourceTree = "<group>"; };
+		8CB8749F1D0CEA46006A9DA6 /* BCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCViewController.h; sourceTree = "<group>"; };
+		8CB874A01D0CEA46006A9DA6 /* BCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
+		8CB874A21D0CEA5F006A9DA6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8CB874A31D0CEA5F006A9DA6 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		CFD19D27960D9F4D596D8470 /* Pods-AWSDynamoLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSDynamoLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSDynamoLogin/Pods-AWSDynamoLogin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,15 +133,12 @@
 		5ECE22FD1BE97AB500794184 /* AWSDynamoLogin */ = {
 			isa = PBXGroup;
 			children = (
-				5EDAFF871CC8121500CE2619 /* voltesV.jpg */,
-				5ECE23011BE97AB500794184 /* AppDelegate.h */,
-				5ECE23021BE97AB500794184 /* AppDelegate.m */,
-				5ECE23041BE97AB500794184 /* ViewController.h */,
-				5ECE23051BE97AB500794184 /* ViewController.m */,
-				5ECE23071BE97AB500794184 /* Main.storyboard */,
-				5ECE230A1BE97AB500794184 /* Assets.xcassets */,
-				5ECE230C1BE97AB500794184 /* LaunchScreen.storyboard */,
-				5ECE230F1BE97AB500794184 /* Info.plist */,
+				8CB874A51D0CEA83006A9DA6 /* Constants */,
+				8CB874A91D0CEB1C006A9DA6 /* UI */,
+				8CB874A81D0CEB12006A9DA6 /* Assets */,
+				8CB874A71D0CEB06006A9DA6 /* Delegate */,
+				8CB874AA1D0CEB3A006A9DA6 /* MainView */,
+				8CB874A61D0CEAEA006A9DA6 /* CameraView */,
 				5ECE22FE1BE97AB500794184 /* Supporting Files */,
 			);
 			path = AWSDynamoLogin;
@@ -165,6 +168,61 @@
 				5ECE23251BE97AB500794184 /* Info.plist */,
 			);
 			path = AWSDynamoLoginUITests;
+			sourceTree = "<group>";
+		};
+		8CB874A51D0CEA83006A9DA6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8CB874A21D0CEA5F006A9DA6 /* Constants.h */,
+				8CB874A31D0CEA5F006A9DA6 /* Constants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		8CB874A61D0CEAEA006A9DA6 /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				8CB8749F1D0CEA46006A9DA6 /* BCViewController.h */,
+				8CB874A01D0CEA46006A9DA6 /* BCViewController.m */,
+			);
+			name = CameraView;
+			sourceTree = "<group>";
+		};
+		8CB874A71D0CEB06006A9DA6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				5ECE23011BE97AB500794184 /* AppDelegate.h */,
+				5ECE23021BE97AB500794184 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		8CB874A81D0CEB12006A9DA6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5ECE230F1BE97AB500794184 /* Info.plist */,
+				5EDAFF871CC8121500CE2619 /* voltesV.jpg */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		8CB874A91D0CEB1C006A9DA6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5ECE23071BE97AB500794184 /* Main.storyboard */,
+				5ECE230A1BE97AB500794184 /* Assets.xcassets */,
+				5ECE230C1BE97AB500794184 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		8CB874AA1D0CEB3A006A9DA6 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				5ECE23041BE97AB500794184 /* ViewController.h */,
+				5ECE23051BE97AB500794184 /* ViewController.m */,
+			);
+			name = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,7 +407,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB874A41D0CEA5F006A9DA6 /* Constants.m in Sources */,
 				5ECE23061BE97AB500794184 /* ViewController.m in Sources */,
+				8CB874A11D0CEA46006A9DA6 /* BCViewController.m in Sources */,
 				5ECE23031BE97AB500794184 /* AppDelegate.m in Sources */,
 				5ECE23001BE97AB500794184 /* main.m in Sources */,
 			);

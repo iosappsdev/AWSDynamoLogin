@@ -30,12 +30,15 @@
     }
     return _credentialsProvider;
 }
+
 - (IBAction)callLambda:(UIButton *)sender {
+    
     AWSLambdaInvoker *lambdaInvoker = [AWSLambdaInvoker defaultLambdaInvoker];
     NSDictionary *parameters = @{@"key1" : @"value1",
                                  @"key2" : @"value2",
                                  @"key3" : @"value3",
                                  @"isError" : @NO};
+    
     [[lambdaInvoker invokeFunction:@"hello-world"
                         JSONObject:parameters] continueWithBlock:^id(AWSTask *task) {
         if (task.error) {
@@ -63,7 +66,9 @@
     NSString *filePath = [[paths objectAtIndex:0] stringByAppendingPathComponent:@"test.png"];
     [UIImagePNGRepresentation(imageToUpload) writeToFile:filePath atomically:YES];
     
-    NSURL* fileUrl = [NSURL fileURLWithPath:filePath];    AWSS3TransferManagerUploadRequest *uploadRequest = [AWSS3TransferManagerUploadRequest new];
+    NSURL* fileUrl = [NSURL fileURLWithPath:filePath];
+    
+    AWSS3TransferManagerUploadRequest *uploadRequest = [AWSS3TransferManagerUploadRequest new];
     uploadRequest.bucket = @"octopus-development-bucket";
     uploadRequest.contentType = @"image/jpeg";
     uploadRequest.key = @"myTestFile2.jpg";
@@ -96,10 +101,8 @@
             // The file uploaded successfully.
         }
         return nil;    }];
-    
-    
-    
  }
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
